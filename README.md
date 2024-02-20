@@ -25,3 +25,12 @@ CURSO EM VIDEO PYTHON
 * Nasa
 * Industrial Light&Magic
 * AutoDesk
+
+# Tipos Primitivos e Saidas de Dados
+* int()➡ tudo dentro do parentese é número inteiro
+* float()➡ número reais
+* bool()➡ valores lógicos ou booleanos
+* str()➡ valores caractere ou strings
+
+![alt text](image-1.png)
+
