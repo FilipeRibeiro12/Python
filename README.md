@@ -74,3 +74,11 @@ frase.split() --> divide os espaços da string, cada palavra recebe uma indexaç
 * Junção
 
 '-'.join(frase) --> juntar a string que foi separada
+
+# Condições 
+
+* Condições Simples e compostas
+--> Em uma condição, ou um bloco verdadeiro é executado, ou um bloco falso é executado
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
