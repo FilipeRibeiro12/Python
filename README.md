@@ -53,7 +53,7 @@ frase = 'Curso em video Python'
 len(frase) --> espaço ou tamanho
 frase.count('o') --> contar as vezes que aparece o caractere
 frase.find('deo') --> encontrar o caractere
-frase.fase('Android') --> quando colocar string que nao existe, recebe valor -1
+frase.find('Android') --> quando colocar string que nao existe, recebe valor -1
 'Curso' in frase --> existe a palavra curso na frase 
 
 * Transformação
