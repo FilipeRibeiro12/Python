@@ -82,3 +82,13 @@ frase.split() --> divide os espaços da string, cada palavra recebe uma indexaç
 ![alt text](image-4.png)
 ![alt text](image-5.png)
 ![alt text](image-6.png)
+
+# Aula Extra Mundo 1 - Como colocar cores no terminal
+
+* ANSI escape sequence 
+
+\033[stilo;texto;fundom
+\033{0;33;44m
+
+![alt text](image-7.png)
+![alt text](image-8.png)
