@@ -92,3 +92,6 @@ frase.split() --> divide os espaços da string, cada palavra recebe uma indexaç
 
 ![alt text](image-7.png)
 ![alt text](image-8.png)
+
+# Condições aninhadas
+![alt text](image-9.png)
