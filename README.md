@@ -34,3 +34,17 @@ CURSO EM VIDEO PYTHON
 
 ![alt text](image-1.png)
 
+# Operadores Aritiméticos
+* Adição ➡ +
+* Subtração ➡ -
+* Multiplicação ➡ *
+* Divisão ➡ /
+* Potência ➡ **
+* Divisão Inteira ➡ //
+* Resto da Divisão ➡ %
+
++ Ordem de Precedência
+* Parêntese ➡ ()
+* Exponenciação ➡ **
+* Multiplicação, divisão, divisão inteira, resto da divisão.
+* Adição e Subtração
