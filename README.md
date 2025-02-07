@@ -111,3 +111,6 @@ frase.split() --> divide os espaços da string, cada palavra recebe uma indexaç
 # Condições aninhadas
 ![alt text](image-9.png)
 
+# LAÇOS DE REPETIÇÂO
+aula13
+

@@ -12,7 +12,7 @@ if id.isdigit() and name.replace(' ', '').isalpha():
         print(f'Olá {nome}, sua categoria é a INFANTIL')
     elif idade <= 19:
         print(f'Olá {nome}, sua categoria é a JUNIOR')
-    elif idade <= 20:
+    elif idade <= 25:
         print(f'Olá {nome}, sua categoria é a SENIOR')
     else:
         print(f'Olá {nome}, sua categoria é a MASTER')

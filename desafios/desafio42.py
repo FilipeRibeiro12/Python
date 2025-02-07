@@ -11,7 +11,7 @@ if r1.isdigit() and r2.isdigit() and r3.isdigit():
               if reta1 == reta2 and reta1 == reta3:
                     print('Você formou um triangulo equilatero')
               elif reta1 == reta2 and reta1 != reta3 or reta1 == reta3 and reta1 != reta2 or reta2 == reta3 and reta2 != reta1:
-                    print('Você formou um triangulo isóceles')
+                    print('Você formou um triangulo isósceles')
               else:
                     print('Você formou um triangulo escaleno')
      else:

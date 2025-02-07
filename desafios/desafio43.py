@@ -15,3 +15,4 @@ elif IMC <= 40:
     print(f'Seu calculo deu {IMC:.2f}, você está com obesidade.')
 else:
     print(f'O seu calculo deu {IMC:.2f}, você está com obesidade morbida.')
+    

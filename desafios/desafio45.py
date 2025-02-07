@@ -6,26 +6,47 @@ print('VAMOS JOGAR')
 print('O jogo de hoje é o JOKENPÔ')
 print('=-='*10)
 
-jokenpo = ['PEDRA', 'PAPEL', 'TESOURA']
-pensar = random.choice(jokenpo)
+itens = ('Pedra', 'Papel', 'Tesoura')
+computador = random.randint(0,2)
+print('''Suas opções:
+[0] PEDRA
+[1] PAPEL
+[2] TESOURA''')
+jogador = int(input('Qual é a sua jogada? '))
 
-print('Escolha, PEDRA, PAPEL ou TESOURA')
-escolha = input('').upper()
-print('PROCESSANDO...')
-time.sleep(2)
+print('JO')
+time.sleep(1)
+print('KEN')
+time.sleep(1)
+print('PÔ')
+time.sleep(0.5)
+if jogador == 0 or jogador == 1 or jogador == 2:
+    print('-='*12)
+    print(f'Computador jogou {itens[computador]}')
+    print(f'Jogador jogou {itens[jogador]}')
+    print('-='*12)
 
-
-if pensar == 'PEDRA' and escolha == 'PAPEL':
-    print(f'Eu pensei em {pensar}, você ganhou ')
-elif pensar == 'PEDRA' and escolha == 'TESOURA':
-    print(f'Eu pensei em {pensar}, eu ganhei')
-elif pensar == 'PAPEL' and escolha == 'PEDRA':
-    print(f'Eu pensei em {pensar}, eu ganhei')
-elif pensar == 'PAPEL' and escolha == 'TESOURA':
-    print(f'Eu pensei em {pensar}, voce ganhou')
-elif pensar == 'TESOURA' and escolha == 'PEDRA':
-    print(f'Eu pensei em {pensar}, você ganhou')
-elif pensar == 'TESOURA' and escolha == 'PAPEL':
-    print(f'Eu pensei em {pensar}, eu ganhei')
+    if computador == 0: # PEDRA
+        if jogador == 0:
+            print('DEU EMPATE')
+        elif jogador == 1:
+            print('VOCÊ GANHOU')
+        elif jogador == 2:
+            print('COMPUTADOR GANHOU')
+    elif computador == 1: # PAPEL
+        if jogador == 0:
+            print('COMPUTADOR GANHOU')
+        elif jogador == 1:
+            print('DEU EMPATE')
+        elif jogador == 2:
+            print('VOCÊ GANHOU')
+    elif computador == 2: # TESOURA
+        if jogador == 0:
+            print('VOCÊ GANHOU')
+        elif jogador == 1:
+            print('COMPUTADOR GANHOU')
+        elif jogador == 2:
+            print('DEU EMPATE')
 else:
-    print(f'Nós pensamos em {pensar}, deu empate')
+    print('JOGADA INVALIDA')
+    

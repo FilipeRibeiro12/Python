@@ -28,5 +28,3 @@ if id.isdigit():
 
 else:
     print('Por favor, Digite somente seu nome e somente os numeros da sua idade.')
-
-
