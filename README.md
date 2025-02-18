@@ -113,4 +113,6 @@ frase.split() --> divide os espaços da string, cada palavra recebe uma indexaç
 
 # LAÇOS DE REPETIÇÂO
 aula13
+![alt text](image-10.png)
+![alt text](image-11.png)
 
