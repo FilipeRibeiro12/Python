@@ -1,7 +1,10 @@
 n = int(input('Digite um numero inteiro: '))
-cont = 1
+cont = n
 fat = 1
-while cont != n:
-    cont += 1
+print(f'Calculando {n}! = ', end='')
+while cont > 0:
+    print(f'{cont}', end='')
+    print(' x ' if cont > 1 else ' = ', end='')
     fat *= cont
-print(f'O fatorial de {n}, é {fat}')
+    cont -= 1
+print(f'{fat}')

@@ -15,4 +15,4 @@ while cont != t10:
             tmais = int(input(''))
             t10 += tmais
             print(pa, end = ' --> ')
-print('ACABOU')
+print(f'PROGRESSÃO FINALIZADA COM {cont} termos')

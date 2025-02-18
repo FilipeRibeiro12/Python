@@ -4,7 +4,7 @@ s = 0
 c = 0
 while n != cont:
     s += n
-    n = int(input('DIGITE UM NUMERO: '))
+    n = int(input('DIGITE UM NUMERO: [999 para parar] '))
     if n != 0 and n != 999:
         c += 1
     print(n, end = ' --> ')

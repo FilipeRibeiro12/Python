@@ -9,7 +9,7 @@ jogador = 0
 palpite = 0
 
 while jogador != computador:
-    jogador = int(input('Advinhe o numero que pensei entre 1 e 10: '))
+    jogador = int(input('Advinhe o numero que pensei entre 0 e 10: '))
     palpite += 1
 
     if jogador < computador:
