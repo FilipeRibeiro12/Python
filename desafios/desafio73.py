@@ -32,7 +32,7 @@ while True:
     if escolha == 4:
         print(f'Os times em ordem alfabetica são: {sorted(times)}')
     if escolha == 5:
-        print(f'A posição do time do cruzeiro é: {times.index('Cruzeiro')}')
+        print(f'A posição do time do cruzeiro é: {times.index('Cruzeiro')+1}')
     if escolha == 6:
         break
 print('-='*20)
