@@ -119,4 +119,7 @@ aula13
 # VARIAVEIS COMPOSTAS
 * Tuplas
  As TUPLAS são IMUTAVEIS
- 
+S
+* Listas
+.append = adicionar no fincal da lista
+.insert = adicionar no inicio da lista
