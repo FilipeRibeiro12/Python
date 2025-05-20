@@ -119,7 +119,18 @@ aula13
 # VARIAVEIS COMPOSTAS
 * Tuplas
  As TUPLAS são IMUTAVEIS
-S
+
 * Listas
-.append = adicionar no fincal da lista
-.insert = adicionar no inicio da lista
+
+| **Ação**                        | **Comando**                    | **Descrição**                                    | **Exemplo**               |
+| ------------------------------- | ------------------------------ | ------------------------------------------------ | ------------------------- |
+| Adicionar no final              | `lista.append(valor)`          | Adiciona um único valor no final da lista        | `lista.append(5)`         |
+| Adicionar em posição específica | `lista.insert(pos, valor)`     | Insere um valor em uma posição (índice) da lista | `lista.insert(2, 10)`     |
+| Adicionar vários valores        | `lista.extend(outros_valores)` | Adiciona os elementos de outra lista ao final    | `lista.extend([7, 8, 9])` |
+| Remover por valor               | `lista.remove(valor)`          | Remove a **primeira ocorrência** do valor        | `lista.remove(3)`         |
+| Remover por posição (e retorna) | `lista.pop(pos)`               | Remove o valor no índice e o retorna             | `lista.pop(1)`            |
+| Remover o último valor          | `lista.pop()`                  | Remove e retorna o último valor da lista         | `lista.pop()`             |
+| Apagar todos os valores         | `lista.clear()`                | Remove todos os elementos da lista               | `lista.clear()`           |
+
+![alt text](image-12.png)
+![alt text](image-13.png)

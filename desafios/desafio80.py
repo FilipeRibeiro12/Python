@@ -15,5 +15,5 @@ for n in range(0, 5):
     if not inserido:
         valores.append(num)
         print('Valor inserido no final da lista')
-print(valores)
+print(f'Estes são os valores que você digitou em ordem crescente: {valores}')
       
